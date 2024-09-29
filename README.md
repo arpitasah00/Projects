@@ -1,1 +1,1 @@
-Projects using HTML and CSS
+Projects on Spotify Clone using HTML and CSS
