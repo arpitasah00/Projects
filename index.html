@@ -2,84 +2,96 @@
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Basic-CSS Project</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;400&display=swap" rel="stylesheet">
+    <title>Plumbing Services</title>
     <link
-      href="https://fonts.googleapis.com/css2?family=Poppins&display=swap"
+      href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css"
       rel="stylesheet"
     />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
-    />
+    <link rel="stylesheet" href="style.css" />
   </head>
-  <body>
-    <div class="main_box">
-      <input type="checkbox" id="check" />
-      <div class="btn_one">
-        <label for="check">
-          <i class="fa-solid fa-bars"></i>
-        </label>
-      </div>
-
-      <div class="sidebar_menu">
-        <div class="logo">
-          <a href="#">PhotoGraphy</a>
+  <body class="bg-pink-100 flex items-center justify-center h-screen">
+    <div
+      id="assignment"
+      class="bg-white p-10 rounded-lg shadow-lg w-full max-w-4xl"
+    >
+      <h2 class="text-4xl font-bold text-left mb-8">OUR SERVICES</h2>
+      <div class="grid grid-cols-1 md:grid-cols-4 gap-4 bg-blue-100">
+        <!-- Emergency Plumbing Services -->
+        <div class="box bg-gray-100 p-6 rounded-lg text-center">
+          <div class="flex justify-center mb-4">
+            <img
+              src="https://static.vecteezy.com/system/resources/thumbnails/016/416/782/small/phone-call-icon-in-realistic-design-style-telephone-signs-illustration-png.png"
+              alt="Emergency Icon"
+            />
+          </div>
+          <h3 class="text-xl font-bold mb-2">Emergency Plumbing Services</h3>
+          <p class="text-gray-600">
+            Our plumbers are ready to go 24/7 for emergencies - including
+            nights, weekends, and holidays.
+          </p>
+          <a href="#" class="text-blue-800 font-semibold mt-4 block"
+            >EXPLORE THIS SERVICE ></a
+          >
         </div>
 
-        <div class="btn_two">
-          <label for="check">
-            <i class="fa-solid fa-xmark"></i>
-          </label>
+        <!-- Plumbing and Drains -->
+        <div class="box bg-gray-100 p-6 rounded-lg text-center">
+          <div class="flex justify-center mb-4">
+            <img
+              src="https://w7.pngwing.com/pngs/39/521/png-transparent-computer-icons-plumbing-pipe-windows-10-plastic-pipe-miscellaneous-blue-angle.png"
+              alt="Plumbing Icon"
+            />
+          </div>
+          <h3 class="text-xl font-bold mb-2">Plumbing and Drains</h3>
+          <p class="text-gray-600">
+            As the largest plumbing and drain service company, we make thousands
+            of repairs every day.
+          </p>
+          <a href="#" class="text-blue-800 font-semibold mt-4 block"
+            >EXPLORE THIS SERVICE ></a
+          >
         </div>
 
-        <div class="menu">
-          <ul>
-            <li>
-              <i class="fa-solid fa-image"></i>
-              <a href="#">Gallery</a>
-            </li>
-            <li>
-              <i class="fa-solid fa-arrow-up-right-from-square"></i>
-              <a href="#">Shortcuts</a>
-            </li>
-            <li>
-              <i class="fa-solid fa-photo-film"></i>
-              <a href="#">Exhibits</a>
-            </li>
-            <li>
-              <i class="fa-solid fa-calendar-days"></i>
-              <a href="#">Events</a>
-            </li>
-            <li>
-              <i class="fa-solid fa-store"></i>
-              <a href="#">Store</a>
-            </li>
-            <li>
-              <i class="fa-solid fa-phone"></i>
-              <a href="#">Contact</a>
-            </li>
-            <li>
-              <i class="fa-regular fa-comments"></i>
-              <a href="#">Feedback</a>
-            </li>
-          </ul>
+        <!-- Water Damage -->
+        <div class="box bg-gray-100 p-6 rounded-lg text-center">
+          <div class="flex justify-center mb-4">
+            <img
+              src="https://banner2.cleanpng.com/20180320/kxq/av0ocqi9m.webp"
+              alt="Water Damage Icon"
+            />
+          </div>
+          <h3 class="text-xl font-bold mb-2">Water Damage</h3>
+          <p class="text-gray-600">
+            Our teams are equipped with state-of-the-art water extraction and
+            cleanup equipment.
+          </p>
+          <a href="#" class="text-blue-800 font-semibold mt-4 block"
+            >EXPLORE THIS SERVICE ></a
+          >
         </div>
 
-        <div class="social_media">
-          <ul>
-            <a href="#"><i class="fa-brands fa-facebook"></i></a>
-            <a href="#"><i class="fa-brands fa-twitter"></i></a>
-            <a href="#"><i class="fa-brands fa-instagram"></i></a>
-            <a href="#"><i class="fa-brands fa-youtube"></i></a>
-          </ul>
+        <!-- Water Heaters -->
+        <div class="box bg-gray-100 p-6 rounded-lg text-center">
+          <div class="flex justify-center mb-4">
+            <img
+              src="https://bellbroshvac.com/wp-content/uploads/2020/10/i-tankless-water-heater.png"
+              alt="Water Heaters Icon"
+            />
+          </div>
+          <h3 class="text-xl font-bold mb-2">Water Heaters</h3>
+          <p class="text-gray-600">
+            Trust Roto-Rooter for repair and replacement of gas, electric, and
+            tankless water heaters.
+          </p>
+          <a href="#" class="text-blue-800 font-semibold mt-4 block"
+            >EXPLORE THIS SERVICE ></a
+          >
         </div>
       </div>
     </div>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.1/anime.min.js"></script>
+    <script src="script.js"></script>
   </body>
 </html>
